@@ -92,38 +92,128 @@
 }
 
 .fi-home:hover:before{
-    -webkit-transform: rotate(360deg); 
-	transition:1s;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg);
+    text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
 }
 
 .fi-cup:hover:before{
-    -webkit-transform: rotate(-360deg); 
-	color:rgba(100,100,100,0.5);
-	transition:1s;
-}
-
-.fi-cup:hover:before{
-    -webkit-transform: rotate(-360deg); 
-	transition:1s;
-}
-
-.fi-cup:hover:before{
-    -webkit-transform: scale(1.2); 
-	transition:1s;
+	-webkit-transform: rotate(100deg);
+	-moz-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
 }
 
 .fi-mail:hover:before{
-    -webkit-transform: scale(.8); 
-	transition:1s;
+	-webkit-transform: scale(.8);
+	-moz-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
 }
 
 .fi-music:hover:before{
-    -webkit-transform: translate(-5px,5px); 
-	transition: -webkit-transform 1s;
+    -webkit-transform: translate(-5px,5px);
+    -moz-transform:translate(-5px,5px);
+    -o-transform:translate(-5px,5px);
+    transform:translate(-5px,5px);
+    text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.fi-cloud:hover:before{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.fi-hourglass:hover:before{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.fi-info:hover:before{
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.fi-info:active:before{
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.fi-pencil:hover:before{
+	-webkit-transform: scale(1.5) rotate(180deg);
+	-moz-transform: scale(1.5) rotate(180deg);
+    -o-transform: scale(1.5) rotate(180deg);
+    transform: scale(1.5) rotate(180deg);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+	transition: 1.5s;	
+}
+
+.fi-feather:hover:before{
+	-webkit-transform: translate(-5px,5px) rotate(360deg);
+	-moz-transform: translate(-5px,5px) rotate(360deg);
+    -o-transform: translate(-5px,5px) rotate(360deg);
+    transform: translate(-5px,5px) rotate(360deg);
+	text-shadow: 7px 7px 7px rgba(0,0,0,.7);
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+	transition: 1s;
 }
 
 .icons__i:hover{
-	border-radius:35% 5% 35% 5%;
+	border-radius:45% 5% 45% 5%;
 	box-shadow: 2px 3px 4px rgba(0,0,0,.6);
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
 	transition:1s;
 }
